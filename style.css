@@ -1,0 +1,62 @@
+
+/* body */
+td {padding: 20px}
+
+header {
+    padding:40px;
+    text-align: center;
+    max-width: 800px
+        
+}
+
+body {padding-top:50px; padding: 40px; background:url("img/bgdarkgray.jpeg"); background-color: black; background-repeat: repeat; background-size: auto; color: white; width: 1100px}
+h1 {text-decoration: underline; text-align: center; font-size: 45px}
+
+/* table properties*/
+table {box-shadow:50px 50px 100px black; background-color: #222333; position: absolute; width: 850px; height: 550px}
+.tr_01 {width: 15%}
+.tr_02 {width: 35%}
+
+.left {position: relative; left:250px; top: 555px}
+.pl_border {border: solid white 2px; width: 100px; align-content: center; padding: 6px}
+
+
+
+
+/*font behavior*/
+
+.red {color: red}
+a {
+    color: ghostwhite;
+    text-decoration: none
+}
+a:hover {
+    text-decoration: underline
+}
+
+
+
+.wrapper {
+    width: 100%;
+    max-width: 800px;
+    background-color: #222333;
+    padding: 20px 30px 40px 50px
+}
+
+
+/* UL flex styles*/
+nav ul {
+    display: flex;
+    padding: 10px
+}
+
+ul {
+    list-style: none;
+    text-indent: 0px;
+    padding: 5px;
+    padding-left: 10px
+}
+
+nav ul li {
+    flex: 1 1 0
+}
